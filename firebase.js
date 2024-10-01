@@ -1,6 +1,5 @@
 // firebase.js
 import admin from "firebase-admin";
-import { readFileSync } from "fs";
 import dotenv from "dotenv";
 dotenv.config();
 
