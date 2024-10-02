@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        margin: 0; /* Remove default margin */
+      }
+      form {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Shopping Cart</h1>
+    <h3>1. Node.js Express Book</h3>
+    <p>Price: $50</p>
+    <p>Quantity: 1</p>
+
+    <h3>2. Coding T-shirt</h3>
+    <p>Price: $20</p>
+    <p>Quantity: 3</p>
+
+    <form action="/checkout" method="post">
+      <input type="submit" value="Proceed to checkout" />
+    </form>
+  </body>
+</html>
